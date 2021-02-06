@@ -21,6 +21,10 @@ class ViewController: NSViewController {
         }
     }
 
-
+    @IBAction func testAction(_ sender: Any) {
+        printHello()
+        ffmpegTest()
+    }
+    
 }
 
